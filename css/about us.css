@@ -1,0 +1,426 @@
+
+
+body{
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto', Helvetica, sans-serif;
+
+}
+div,form,ul,ol,li,span,p {
+  margin:0;
+  padding:0;
+  border:0;
+}
+img,a img{
+  border:0;
+  margin:0;
+  padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+  font-weight:normal;
+}
+ul,ol,li{
+  list-style:none
+}
+a{
+  outline-style:none;
+  
+  text-decoration:none
+}
+a:visited,a:link {
+
+color: #333;
+}
+a:active {
+
+color: #666;
+}
+a:hover{
+color:blue;
+  
+}
+
+
+/*Uniform default style*/
+ 
+@media (max-width: 660px) {
+
+  .wrapper {
+
+   width: 430px;
+   margin: auto;
+
+  }
+   .banner {
+ display: none;
+  }
+
+ 
+  .logo {
+    display: block;
+    height: 30px;
+    width: 110px;
+     padding-left: 10px;
+
+
+   }
+
+
+
+  .nav {
+  height: 30px;
+  background-color: #D9D9D9;
+
+  }
+  .cart-960 {
+    display: none;
+
+
+  }
+
+
+
+
+
+
+  .topnav {
+
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+  }
+
+
+ .cart-430  {
+  padding-top: 15px;
+  justify-self: flex-end;
+  margin-right: 10px;
+   
+ }
+ 
+ .ring-430 {
+ 
+
+
+   justify-content: flex-end;
+   padding-top: 15px;
+   margin-left: 200px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+  .topnav ul {
+     width: 430px;
+     
+     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    }
+.topnav li a {
+
+
+
+  color: #369;
+  text-decoration: none;
+  transition:background-color 1s;
+  display: block;
+  padding: 0.75rem;
+  background-color: #ccc;
+  margin: 1px;
+
+
+}
+
+.topnav ul li a:hover {
+
+    color: #900;
+    background: #fff;
+    
+}
+.title h2 {
+  padding-left: 150px;
+  padding-bottom: 30px;
+   align-content: center;
+  font-weight: bold;
+  
+  
+  }
+
+  .maincontent .pic2 {
+
+  display: block;
+   width: 326px;
+   height: 149px;
+   margin: auto;
+
+  }
+  .pic2 img {
+    text-align: center;
+    width: 326px;
+    height: 149px;
+  }
+  .title p {
+     font-size: 16px;
+    padding: 1rem;
+
+  }
+  .pic {
+
+    display: none;
+  }
+
+.introduce h3 {
+padding-left: 150px;
+position: relative;
+top:35px;
+z-index: 100;
+
+}
+
+.introduce_content {
+
+  width: 430px;
+  height: 506px;
+  background-color: #D9D9D9;
+}
+.person {
+  text-align: center;
+  padding-top: 50px;
+}
+.person span {
+width: 163px;
+height: 120px;
+display: block;
+padding-top: 40px;
+padding-left: 140px;
+
+}
+.descriptions {
+  margin: auto;
+  width: 370px;
+  text-align: left;
+}
+
+.hire h2 {
+
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+.hire_content {
+  width: 420px;
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  border-bottom: #D9D9D9 1px solid;
+  padding-bottom: 15px;
+}
+.hire_contect h3 {
+  font-size: 18px;
+  font-weight: bold;
+  order: 1;
+}
+.hire_content p {
+
+  width: 355px;
+}
+.btn {
+  margin-left: 300px;
+  width: 100px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border: 1px solid #D9D9D9;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 670px) {
+
+.wrapper {
+
+  width: 950px;
+  margin: auto;
+
+ }
+
+
+.logo {
+
+display: block;
+padding-left: 100px;
+
+}
+.topnav span {
+
+margin-left: 50px;
+
+}
+.topnav {
+
+  display: flex;
+  width: 950px;
+  height: 50px;
+ 
+}
+.topnav ul {
+ 
+  list-style: none;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap; 
+  margin: 0;
+  padding: 0;
+}
+
+.topnav ul li {
+  padding-top: 20px;
+  flex: 1;
+  text-align: center; 
+  font-weight: bold;
+  font-size: 18px;
+}
+.topnav span {
+   float: right;
+  padding-top: 10px;
+
+}
+.header .logo {
+  margin-top: 5px;
+}
+.ring-430,.cart-430 {
+
+display: none;
+
+}
+.cart-960 {
+
+  margin-top: 10px;
+}
+
+/* main content star */
+.maincontent {
+  display: flex;
+ 
+   padding-top: 20px;
+
+
+}
+ .title h2 {
+padding-left: 150px;
+padding-bottom: 30px;
+ align-content: center;
+font-weight: bold;
+
+
+}
+.title {
+  justify-content: flex-start;
+  width: 370px;
+  font-size: 1rem;
+  margin-right: 50px;
+  margin-left: 60px;
+
+
+}
+.pic {
+  padding-top: 60px;
+  width: 343px;
+  height: 192px;
+}
+.maincontent .pic2 {
+
+  display: none;
+}
+.introduce h3 {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+.introduce_content {
+width: 950px;
+height: 290px;
+background-color: #D9D9D9;
+
+}
+.person {
+text-align: center;
+padding-top: 40px;
+margin-left: 50px;
+width: 40%;
+
+}
+.person h4, .person h5 {
+  height: 30px;
+
+}
+
+.descriptions {
+
+  width: 370px;
+  margin-top: 30px;
+}
+.introduce_content {
+  display: flex;
+
+}
+.hire h2 {
+
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+.hire_content {
+  margin-top: 15px;
+  display: flex;
+  justify-content:space-between;
+  border-bottom: #D9D9D9 1px solid;
+  padding-bottom: 15px;
+}
+.hire_contect h3 {
+  font-size: 18px;
+  font-weight: bold;
+  order: 1;
+}
+.hire_content p {
+
+  width: 650px;
+}
+.btn {
+
+  width: 155px;
+  height: 39px;
+  line-height: 39px;
+  text-align: center;
+  border: 1px solid #D9D9D9;
+}
+}
