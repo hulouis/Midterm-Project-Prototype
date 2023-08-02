@@ -1,0 +1,361 @@
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', Helvetica, sans-serif;
+ 
+}
+div,form,ul,ol,li,span,p {
+    margin:0;
+    padding:0;
+    border:0;
+}
+img,a img{
+    border:0;
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+    font-weight:normal;
+}
+ul,ol,li{
+    list-style:none
+}
+a{
+    outline-style:none;
+    
+    text-decoration:none
+}
+a:visited,a:link {
+
+  color: #333;
+}
+a:active {
+
+  color: #666;
+}
+a:hover{
+  color:blue;
+    
+}
+
+
+/*Uniform default style*/
+
+@media (max-width: 660px) {
+
+    .wrapper {
+  
+     width: 430px;
+     margin: auto;
+  
+    }
+     .banner {
+   display: none;
+    }
+  
+   
+    .logo {
+      display: block;
+      height: 30px;
+      width: 110px;
+       padding-left: 10px;
+  
+  
+     }
+  
+  
+  
+    .nav {
+    height: 30px;
+    background-color: #D9D9D9;
+  
+    }
+    .cart-960 {
+      display: none;
+  
+  
+    }
+  
+  
+  
+  
+  
+  
+    .topnav {
+  
+      display: flex;
+      justify-content:space-between;
+      flex-wrap: wrap;
+    }
+  
+  
+   .cart-430  {
+    padding-top: 15px;
+    justify-self: flex-end;
+    margin-right: 10px;
+     
+   }
+   
+   .ring-430 {
+   
+  
+  
+     justify-content: flex-end;
+     padding-top: 15px;
+     margin-left: 200px;
+   }
+  .map {
+    display: none;
+    
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    .topnav ul {
+       width: 430px;
+       
+       margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      
+      }
+  .topnav li a {
+  
+  
+  
+    color: #369;
+    text-decoration: none;
+    transition:background-color 1s;
+    display: block;
+    padding: 0.75rem;
+    background-color: #ccc;
+    margin: 1px;
+  
+  
+  }
+  
+  .topnav ul li a:hover {
+  
+      color: #900;
+      background: #fff;
+      
+  }
+.form {
+
+    width: 343px;
+}
+.contact-section {
+    text-align: center;
+
+      width: 430px;
+      
+}
+
+.map {
+   
+  display: none;
+    }
+    
+
+
+
+  .contact-section h3 {
+
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+ }
+ .form {
+ 
+      margin: auto;
+     text-align: left;
+     width: 400px;
+    
+     padding-left: 9px;
+ }
+   form input,
+   form textarea {
+     display: block;
+     width: 90%;
+     margin-bottom: 1rem;
+     padding: .5rem 1rem;
+     margin-top: 8px;
+     
+    
+   }
+   form textarea {
+     min-height: 150px;
+     max-height: 150px;
+     height: 150px;
+     resize: none;
+     margin-top: 1rem;
+    
+   }
+   form button {
+     background: #D9D9D9;
+     border: 1px solid #ccc;
+     padding: 1rem;
+     width: 97%;
+     text-transform: uppercase;
+     font-size: 18px;
+   }
+ 
+ 
+ 
+ 
+   }
+   
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (min-width: 670px) {
+  
+  .wrapper {
+  
+    width: 950px;
+    margin: auto;
+  
+   }
+  
+  
+  .logo {
+  
+  display: block;
+  padding-left: 100px;
+  
+  }
+  .topnav span {
+  
+  margin-left: 50px;
+  
+  }
+  .topnav {
+  
+    display: flex;
+    width: 950px;
+    height: 50px;
+   
+  }
+  .topnav ul {
+   
+    list-style: none;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topnav ul li {
+    padding-top: 20px;
+    flex: 1;
+    text-align: center; 
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .topnav span {
+     float: right;
+    padding-top: 10px;
+  
+  }
+  .header .logo {
+    margin-top: 5px;
+  }
+  .ring-430,.cart-430 {
+  
+  display: none;
+  
+  }
+  .cart-960 {
+  
+    margin-top: 10px;
+  }
+  
+  /* main content star */
+  .map {
+
+    margin: auto;
+    align-content: center;
+    text-align: center;
+  }
+.contact-section {
+     text-align: center;
+
+       width: 950px;
+       
+}
+.contact-section h3 {
+
+   font-size: 16px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+}
+.form {
+
+     margin: auto;
+    text-align: left;
+    width: 580px;
+   
+    padding-left: 9px;
+}
+  form input,
+  form textarea {
+    display: block;
+    width: 90%;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    margin-top: 8px;
+    
+   
+  }
+  form textarea {
+    min-height: 150px;
+    max-height: 150px;
+    height: 150px;
+    resize: none;
+    margin-top: 1rem;
+   
+  }
+  form button {
+    background: #D9D9D9;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 95%;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+  .map_mobile {
+   
+    display: none;
+      }
+      
+
+
+  }
+  
