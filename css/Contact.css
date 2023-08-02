@@ -108,8 +108,11 @@ a:hover{
      padding-top: 15px;
      margin-left: 200px;
    }
-  
-  
+  .map {
+    display: none;
+    
+
+  }
   
   
   
@@ -160,10 +163,12 @@ a:hover{
       width: 430px;
       
 }
-  .map {
-display: none;
-  }
-  
+
+.map {
+   
+  display: none;
+    }
+    
 
 
 
@@ -345,7 +350,11 @@ display: none;
     font-size: 18px;
   }
 
-
+  .map_mobile {
+   
+    display: none;
+      }
+      
 
 
   }
